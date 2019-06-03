@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.head-yhy{
+  width: 1226px;
+  *zoom: 1;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 14px;
+}
+
+.head-yhy .nav-qwe{
+  width: 234px;
+  float: left;
+  margin: 0;
+  padding: 3px;
+  min-height: 1px;
+  list-style-type: none;
+  font-size: 12px;
+  text-align: center;
+  background: #5f5750;
+}
+
+.head-yhy .nav-qwe li{
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 82px;
+  padding: 0 3px;
+}
+
+.head-yhy .nav-qwe li:after {
+  top: 6px;
+  left: 0;
+  width: 1px;
+  height: 70px;
+  position: absolute;
+  content: "";
+  background: #665e57;
+}
+
+.head-yhy .nav-qwe li:before {
+  top: -1px;
+  left: 6px;
+  width: 64px;
+  height: 1px;
+  position: absolute;
+  content: "";
+  background: #665e57;
+}
+
+.head-yhy .nav-qwe li a{
+  display: block;
+  padding-top: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  _zoom: 1;
+  color: #fff;
+  color: rgba(255,255,255,0.7);
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.head-yhy .nav-qwe li a i{
+  display: block;
+  height: 24px;
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+}
+
+.head-yhy .nav-qwe li a:hover {
+  color: #fff;
+}
+
+
+
+.head-yhy .nav-zxd{
+  width: 978px;
+  float: left;
+  margin-left: 14px;
+  min-height: 1px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.head-yhy .nav-zxd li{
+  float: left;
+  width: 316px;
+  height: 170px;
+  margin-left: 10px;
+}
+
+.head-yhy .nav-zxd li:hover img{
+  z-index: 2;
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.head-yhy .nav-zxd li img{
+  width: 316px;
+  height: 170px;
+  -webkit-transition: -webkit-box-shadow .2s linear;
+  transition: box-shadow .2s linear;
+}
+
+@font-face{
+  font-family:'iconfont';
+  src:url(
+    "data:application/x-font-ttf;charset=utf-8;base64,data-stat-aid="AA13424" data-stat-pid="2_44_1_250" data-log_code="31pchomesix_small_icon001003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.1&amp;adm=2227" target="_blank" data-stat-id="AA13424+2_44_1_250" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA13424+2_44_1_250', 'http://www.mi.com/compare/', 'pcpid', '31pchomesix_small_icon001003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.1&amp;adm=2227']);
+
+    data-stat-aid="AA10868" data-stat-pid="2_44_2_251" data-log_code="31pchomesix_small_icon002003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.2&amp;adm=613" target="_blank" data-stat-id="AA10868+2_44_2_251" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA10868+2_44_2_251', 'http://qiye.mi.com/', 'pcpid', '31pchomesix_small_icon002003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.2&amp;adm=613']
+    
+    data-stat-aid="AA17703" data-stat-pid="2_44_3_252" data-log_code="31pchomesix_small_icon003003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.3&amp;adm=616" target="_blank" data-stat-id="AA17703+2_44_3_252" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA17703+2_44_3_252', '//order.mi.com/f', 'pcpid', '31pchomesix_small_icon003003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.3&amp;adm=616']
+    
+    data-stat-aid="AA11244" data-stat-pid="2_44_4_253" data-log_code="31pchomesix_small_icon004003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.4&amp;adm=862" target="_blank" data-stat-id="AA11244+2_44_4_253" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA11244+2_44_4_253', 'https://www.mi.com/mimobile/', 'pcpid', '31pchomesix_small_icon004003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.4&amp;adm=862']
+    
+    data-stat-aid="AA12084" data-stat-pid="2_44_5_254" data-log_code="31pchomesix_small_icon005003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.5&amp;adm=1386" target="_blank" data-stat-id="AA12084+2_44_5_254" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA12084+2_44_5_254', '//huanxin.mi.com', 'pcpid', '31pchomesix_small_icon005003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.5&amp;adm=1386']
+    
+    data-stat-aid="AA10871" data-stat-pid="2_44_6_255" data-log_code="31pchomesix_small_icon006003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.6&amp;adm=617" target="_blank" data-stat-id="AA10871+2_44_6_255" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA10871+2_44_6_255', 'http://recharge.10046.mi.com/', 'pcpid', '31pchomesix_small_icon006003#t=normal&amp;act=other&amp;page=home&amp;bid=3030363.6&amp;adm=617']
+    
+    data-stat-aid="AA21904" data-stat-pid="2_16_1_77" data-log_code="31pchomethree_line001002#t=normal&amp;act=other&amp;page=home&amp;bid=3030336.1&amp;adm=6146" target="_blank" data-stat-id="AA21904+2_16_1_77" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA21904+2_16_1_77', 'https://www.mi.com/redmi7/cfrom=search', 'pcpid', '31pchomethree_line001002#t=normal&amp;act=other&amp;page=home&amp;bid=3030336.1&amp;adm=6146']);"><img alt="红米7 699起" src="//i1.mifile.cn/a4/xmad_15553962519926_fcMZl.jpg" srcset="//i1.mifile.cn/a4/xmad_15553962556499_GTdME.jpg 2x
+    
+    data-stat-aid="AA21905" data-stat-pid="2_16_2_78" data-log_code="31pchomethree_line002002#t=normal&amp;act=other&amp;page=home&amp;bid=3030336.2&amp;adm=6308" target="_blank" data-stat-id="AA21905+2_16_2_78" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA21905+2_16_2_78', 'https://www.mi.com/redminote7/', 'pcpid', '31pchomethree_line002002#t=normal&amp;act=other&amp;page=home&amp;bid=3030336.2&amp;adm=6308']);"><img alt="note7常规" src="//i1.mifile.cn/a4/xmad_15594893304527_cTIRy.jpg" srcset="//i1.mifile.cn/a4/xmad_15594893348394_VIaCE.jpg 2x
+    
+    data-stat-aid="AA21876" data-stat-pid="2_16_3_79" data-log_code="31pchomethree_line003002#t=normal&amp;act=other&amp;page=home&amp;bid=3030336.3&amp;adm=6286" target="_blank" data-stat-id="AA21876+2_16_3_79" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-AA21876+2_16_3_79', 'https://item.mi.com/product/8810.html', 'pcpid', '31pchomethree_line003002#t=normal&amp;act=other&amp;page=home&amp;bid=3030336.3&amp;adm=6286']);"><img alt="小米手环3nfc 199元" src="//i1.mifile.cn/a4/xmad_15592075074072_GUpWM.jpg" srcset="//i1.mifile.cn/a4/xmad_15592075120867_gMrzY.jpg 2x
+  
+    ") format("woff");
+
+}
